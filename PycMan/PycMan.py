@@ -93,8 +93,6 @@ def game_loop():
 
         pac_posx += posx_change
         pac_posy += posy_change
-
-        dis.fill(black)
     
         pygame.display.update()
         clock.tick(game_speed)
